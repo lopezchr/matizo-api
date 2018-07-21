@@ -1,0 +1,26 @@
+{
+  "name": "matizo_const_api",
+  "version": "1.0.0",
+  "description": "Api para proyecto de contructores con matizo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js server.js"
+  },
+  "author": "Christian Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "jwt-simple": "^0.5.1",
+    "knex": "^0.15.2",
+    "koa": "^2.5.2",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
