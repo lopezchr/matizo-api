@@ -1,5 +1,6 @@
 {
 	"errors": {
-		"001": "Parámetros incorrectos"
+		"001": "Parámetros incorrectos",
+		"101": "Usuario no encontrado"
 	}
 }

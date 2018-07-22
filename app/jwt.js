@@ -31,10 +31,6 @@ module.exports = async function (ctx, next) {
       } 
     } catch (e) {
       ctx.state.errorDescription = 'Error verificando el token'
-      /*let error = new Error('Token invalido')
-      error.status = 401
-      error.code = '000'
-      throw error*/
     }
   }
 

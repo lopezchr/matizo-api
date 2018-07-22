@@ -11,8 +11,6 @@ if (process.env.NODE_ENV != 'development') {
   app.proxy = true
 }
 
-app.context.services = require('./services')
-
 // middlewares
 app.use(require('koa-body')({multipart: true}))
 app.use(require('./app/cors'))
